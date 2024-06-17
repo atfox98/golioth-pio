@@ -1,6 +1,13 @@
 # golioth-pio
 Minimal template for PlatformIO/ESP-IDF/Arduino projects
 
+# Setup
+VSCode + PlatformIO
+
+To clone:
+
+        git clone https://github.com/atfox98/golioth-pio --recursive
+
 # Problems
 To add golioth to this project, I've been following [this golioth blog post](https://blog.golioth.io/how-to-add-golioth-to-any-esp-idf-project/).
 
