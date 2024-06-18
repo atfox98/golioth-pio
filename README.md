@@ -12,7 +12,7 @@ To clone:
 To add golioth to this project, I've been following [this golioth blog post](https://blog.golioth.io/how-to-add-golioth-to-any-esp-idf-project/).
 
 I've run into the following issues:
-1) From step 3: `CONFIG_MBEDTLS_KEY_EXCHANGE_PSK` does not appear to be an option in menuconfig (open a PlatformIO terminal and type `pio run -t menuconfig` to access the menuconfig)
+1) ~~From step 3: `CONFIG_MBEDTLS_KEY_EXCHANGE_PSK` does not appear to be an option in menuconfig (open a PlatformIO terminal and type `pio run -t menuconfig` to access the menuconfig)~~ Fixed with push on 6/18/2024
 2) From step 4: `golioth.h` doesn't appear to exist. Instead, I include `golioth/client.h` at the top of my code.
 3) During compilation, an assembly language file appears to be missing:
 
