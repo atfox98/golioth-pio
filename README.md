@@ -26,3 +26,5 @@ I've run into the following issues:
         Compiling .pio\build\esp32dev\components\golioth-firmware-sdk\src\zcbor_utils.o
         *** [.pio\build\esp32dev\.pio\build\esp32dev\isrgrootx1.der.o] Source `.pio\build\esp32dev\isrgrootx1.der.S' not found, needed by target `.pio\build\esp32dev\.pio\build\esp32dev\isrgrootx1.der.o'.
         ===================================================== [FAILED] Took 35.83 seconds =====================================================
+
+   Note: I did find `isrgrootx1.der` in `golioth-firmware-sdk/src` and in the CMake configuration (`goliath-firmware-sdk/port/esp_idf/components/golioth-sdk/CMakeLists.txt`, line 51). I haven't really dug into the configuration/build process but it looks like something that should be happening isn't.
