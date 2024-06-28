@@ -2,19 +2,6 @@
 #include <WiFi.h>
 extern "C" {
 #include <golioth/client.h>
-#include <golioth/config.h>
-#include <golioth/fw_update.h>
-#include <golioth/golioth_debug.h>
-#include <golioth/golioth_status.h>
-#include <golioth/golioth_sys.h>
-#include <golioth/lightdb_state.h>
-#include <golioth/log.h>
-#include <golioth/ota.h>
-#include <golioth/payload_utils.h>
-#include <golioth/rpc.h>
-#include <golioth/settings.h>
-#include <golioth/stream.h>
-#include <golioth/zcbor_utils.h>
 }
 
 #define WIFI_SSID       ("SSID")
