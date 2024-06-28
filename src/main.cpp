@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <WiFi.h>
+extern "C" {
 #include <golioth/client.h>
 #include <golioth/config.h>
 #include <golioth/fw_update.h>
@@ -14,6 +15,7 @@
 #include <golioth/settings.h>
 #include <golioth/stream.h>
 #include <golioth/zcbor_utils.h>
+}
 
 #define WIFI_SSID       ("SSID")
 #define WIFI_PASS       ("PASS")
